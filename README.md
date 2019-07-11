@@ -1,13 +1,12 @@
 # Google® Coral USB Accelerator
  
-
 ### Software Requirements
 Any Linux computer with a USB port:
-* Ubuntu 18.04
+* [`Ubuntu 18.04`](https://ubuntu.com/download/desktop)
 * [`Python 3.6`](https://www.python.org/downloads/)
 * System architecture of either x86-64 or ARM32/64 with ARMv8 instruction set
 
-### Clone Repository and Install
+### Clone Repository and Installation
 ```bash
 cd ~
 git clone https://github.com/constandinos/Coral.git
@@ -45,7 +44,7 @@ python3 object_detection.py \
 ```
 
 ### References
-* **https:dasd//coral.withgoogle.com/docs/accelerator/get-started/**
+* **https://coral.withgoogle.com/docs/accelerator/get-started/**
 * **https://coral.withgoogle.com/docs/edgetpu/api-intro/**
 
 
