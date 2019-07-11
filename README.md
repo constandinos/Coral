@@ -1,7 +1,7 @@
 # Google® Coral USB Accelerator
  
 ### Software Requirements
-Any Linux computer with a USB port:
+Any Linux computer with a USB port
 * [`Ubuntu 18.04`](https://ubuntu.com/download/desktop)
 * [`Python 3.6`](https://www.python.org/downloads/)
 * System architecture of either x86-64 or ARM32/64 with ARMv8 instruction set
