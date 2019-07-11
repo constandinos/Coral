@@ -13,9 +13,9 @@ cd ~
 git clone https://github.com/constandinos/Coral.git
 cd Coral/edgetpu_api
 bash ./install.sh
+```
 
 Caution: During installation, you'll be asked, "Would you like to enable the maximum operating frequency?" Enabling this option improves the the inferencing speed but it also causes the USB Accelerator to become very hot to the touch during operation and might cause burn injuries. If you're not sure you need the increased performance, type N and press Enter to use the default operating frequency. (You can change this later by simply re-running the install script.)
-```
 
 ### Run models on the Edge TPU (Image Classifiacation):
 
@@ -23,6 +23,7 @@ Now Plug in the Accelerator using the provided USB 3.0 cable
 
 ```bash
 # Demo No1 (Parrot)
+
 cd /usr/local/lib/python3.6/dist-packages/edgetpu/demo
 
 python3 classify_image.py \
@@ -34,6 +35,7 @@ python3 classify_image.py \
 ```bash
 
 # Demo No2 (Face)
+
 cd /usr/local/lib/python3.6/dist-packages/edgetpu/demo
 
 python3 object_detection.py \
@@ -45,4 +47,5 @@ python3 object_detection.py \
 ### References
 * **https:dasd//coral.withgoogle.com/docs/accelerator/get-started/**
 * **https://coral.withgoogle.com/docs/edgetpu/api-intro/**
+
 
